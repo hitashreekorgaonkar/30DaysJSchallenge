@@ -35,5 +35,6 @@ console.log(11 > 5 || 5 > 11);
 console.log(!(11 > 5));
 
 // Ternary Operator
-terOpr = num1 > 0 ? num1 + " is Positive Number" : num1 + " is Negative Number";
+let terOpr =
+  num1 > 0 ? `${num1} is Positive Number` : `${num1}  is Negative Number`;
 console.log(terOpr);
